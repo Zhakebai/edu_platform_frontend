@@ -1,0 +1,161 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> AnIntellect Study </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../styles/cur.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="../styles/fontawesome.min.css">
+  <link rel="stylesheet" href="../styles/swiper-bundle.min.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <section id="navbar">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="../pages/home.html">
+                        <img class="logo" src="../photo/logo.jpg" alt="site icon">
+                        <span>Educational School</span>
+                    </a>
+        
+                    <button class="navbar-toggler sound-btn" onmousedown="sound1.play()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+        
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto">
+                            <li class="nav-item"><a class="nav-link " aria-current="page" href="../pages/home.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../pages/cur.html">Curriculum</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../pages/about.html">About Us</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../pages/faq.html">FAQs</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </header>
+
+    <section class="home">
+        <div class="home_wrapper">
+            <div class="home_overlay">
+                <div id="animateMe">Curriculum of the Course</div>
+            </div>
+        </div>
+    </section>
+
+    <div class="wrapper">
+        <div class="switch">
+            <input type="checkbox" name="switch" class="switch-checkbox" id="custom-switch">
+            <label for="custom-switch" class="switch-label">
+                <span class="switch-one"></span>
+                <span class="switch-two"></span>
+            </label>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="slide_container active">
+            <div class="slide">
+                <div class="content">
+                    <h3>01. Primary</h3>
+                    <p>
+                        Cambridge Primary launches young learners on a path toward a life-long love of learning in a supportive, encouraging environment. The program is aimed at children who are typically aged 7-11, and helps them to develop knowledge and skills in a flexible curriculum covering 9 subjects, with Maths, Science, and English as the centerpiece. Young learners develop confidence by achieving clear objectives and demonstrate their progress in periodic assessments that are used to adjust their focus moving forward, keeping them engaged in material that is not only beneficial but exciting as well.
+                    </p>
+                </div>
+    
+                <div class="image">
+                    <img src="../photo/primary.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="slide_container">
+            <div class="slide">
+                <div class="content">
+                <h3>02. Lower Secondary</h3>
+                <p>Cambridge Lower Secondary is where students who are typically in the 11-14 age range begin to expand their learning to a broader palette, applying the building blocks they’ve mastered in Cambridge Primary to more challenging pursuits. The curriculum is ﬂexible and adaptable to a wide variety of cultural contexts, branching out further from core studies to encompass more independent, thought-provoking topics while still developing a vital knowledge base and skills. Some examples of the bigger concepts that may be in the curriculum include classes on Global Perspectives, Art and Design, and Digital Literacy.</p>
+            </div>
+            
+
+            <div class="image">
+                <img src="../photo/lower.jpg" alt="">
+            </div>
+        </div>
+        </div>
+
+        <div class="slide_container">
+            <div class="slide">
+                <div class="content">
+                <h3>03. Secondary</h3>
+                <p>
+                    In Cambridge Upper Secondary, young learners who are typically aged 14-16 continue broadening and deepening their knowledge base. While the tools students learn in Cambridge Lower Secondary are expanded upon here, it isn’t necessary that students complete that program ﬁrst. Classes are built around exposing the student to a broad array of subjects that focus on enquiry and problem-solving, as well as preparing them to sit the IGCSE. Students are given some leeway in deciding how to structure their curricula, and our instructors and staff will work with them to ensure that they will be ready not only to sit their exam, but also face the next educational challenges in their schooling.</p>
+                
+            </div>
+
+            <div class="image">
+                <img src="../photo/secondary.jpg" alt="">
+            </div>
+        </div>
+        </div>
+
+        <div class="slide_container">
+            <div class="slide">
+                <div class="content">
+                <h3>04. Advanced</h3>
+                <p>Cambridge Advanced is open to students who are typically aged 16 to 19 and eager to gain advanced learning to help them pursue university and higher education. Cambridge Upper Secondary is not a prerequisite, but the critical thinking skills students have learned in Cambridge Upper Secondary are expanded still further in Cambridge Advanced. Students are encouraged to develop the ability to pursue independent study, vital to a successful university career, in self-designed curricula that can prepare the student for any university-level course of study.</p>
+                
+            </div>
+
+            <div class="image">
+                <img src="../photo/advanced.jpg" alt="">
+            </div>
+        </div>
+        </div>
+
+        <div id="prev"></div>
+        <div id="next"></div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+          <h3>Follow us</h3>
+          <div class="social-links">
+            <a href="#" title="facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" title="twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" title="instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" title="youtube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </footer>
+        
+
+    <script src="../scripts/cur.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.3.0.js"
+  integrity="sha256-TFWSuDJt6kS+huV+vVlyV1jM3dwGdeNWqezhTxXB/X8="
+  crossorigin="anonymous"></script>
+  <script>
+    $(window).scroll(function(){
+        var scrollTop = $(this).scrollTop();
+
+        $('.home_overlay').css({
+            opacity: function(){
+                var elementHeight = $(this).height(),
+                opacity = ((1-(elementHeight - scrollTop) / elementHeight)*0.9) + 0.2;
+
+                return opacity
+            }
+        })
+    });
+
+    $('#custom-switch').change(function(){
+        $('.wrapper').toggleClass('dark-mode')
+    });
+  </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</body>
