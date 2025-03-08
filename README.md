@@ -3,38 +3,7 @@
 AnIntellect Study is an educational website designed to provide online learning opportunities. The project contains multiple pages, including a homepage, curriculum details, an about section, and a frequently asked questions (FAQ) page. The website integrates images, videos, sounds, scripts, and custom fonts to enhance the user experience.
 
 ## Project Structure
-/project
-├── /pages          # Contains the main HTML pages
-│   ├── home.html
-│   ├── cur.html
-│   ├── about.html
-│   ├── faq.html
-│
-├── /styles         # CSS files for styling the website
-│   ├── home.css
-│   ├── cur.css
-│   ├── about.css
-│   ├── faq.css
-│   ├── fontawesome.min.css
-│   ├── swiper-bundle.min.css
-│
-├── /scripts        # JavaScript files for website interactivity
-│   ├── home.js
-│   ├── cur.js
-│   ├── about.js
-│   ├── faq.js
-│   ├── swiper-bundle.min.js
-│
-├── /photo          # Images used across the website
-│
-├── /video          # Video content for the about page
-│
-├── /sounds         # Sound effects used for interactions
-│
-├── /webfonts       # Custom fonts used in the project
-│
-└── README.md       # Documentation of the project
-
+/project ├── /pages # Contains the main HTML pages │ ├── home.html │ ├── cur.html │ ├── about.html │ ├── faq.html ├── /styles # CSS files for styling the website │ ├── home.css │ ├── cur.css │ ├── about.css │ ├── faq.css │ ├── fontawesome.min.css │ ├── swiper-bundle.min.css ├── /scripts # JavaScript files for website interactivity │ ├── home.js │ ├── cur.js │ ├── about.js │ ├── faq.js │ ├── swiper-bundle.min.js ├── /photo # Images used across the website ├── /video # Video content for the about page ├── /sounds # Sound effects used for interactions ├── /webfonts # Custom fonts used in the project ├── README.md # Documentation of the project
 
 ## Features
 Responsive Design: Utilizes Bootstrap for responsiveness.
