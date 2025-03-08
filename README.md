@@ -82,7 +82,8 @@ CSS and JavaScript files are linked using ../styles/ and ../scripts/ respectivel
 ![image](https://github.com/user-attachments/assets/0d360db5-db91-4d22-aa11-c1f00d8d1994)
 
 ## Future Improvements
+```
 Add a backend for user authentication and course management.
 Implement a database for storing user progress.
 Improve animations and UI components.
-
+```
