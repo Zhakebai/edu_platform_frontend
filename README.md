@@ -2,7 +2,7 @@
 # Overview
 AnIntellect Study is an educational website designed to provide online learning opportunities. The project contains multiple pages, including a homepage, curriculum details, an about section, and a frequently asked questions (FAQ) page. The website integrates images, videos, sounds, scripts, and custom fonts to enhance the user experience.
 
-# Project Structure
+## Project Structure
 /project
 ├── /pages          # Contains the main HTML pages
 │   ├── home.html
