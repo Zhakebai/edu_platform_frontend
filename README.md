@@ -3,25 +3,62 @@
 AnIntellect Study is an educational website designed to provide online learning opportunities. The project contains multiple pages, including a homepage, curriculum details, an about section, and a frequently asked questions (FAQ) page. The website integrates images, videos, sounds, scripts, and custom fonts to enhance the user experience.
 
 ## Project Structure
-```/project ├── /pages # Contains the main HTML pages │ ├── home.html │ ├── cur.html │ ├── about.html │ ├── faq.html ├── /styles # CSS files for styling the website │ ├── home.css │ ├── cur.css │ ├── about.css │ ├── faq.css │ ├── fontawesome.min.css │ ├── swiper-bundle.min.css ├── /scripts # JavaScript files for website interactivity │ ├── home.js │ ├── cur.js │ ├── about.js │ ├── faq.js │ ├── swiper-bundle.min.js ├── /photo # Images used across the website ├── /video # Video content for the about page ├── /sounds # Sound effects used for interactions ├── /webfonts # Custom fonts used in the project ├── README.md # Documentation of the project```
+```/project
+├── /pages          # Contains the main HTML pages
+│   ├── home.html
+│   ├── cur.html
+│   ├── about.html
+│   ├── faq.html
+│
+├── /styles         # CSS files for styling the website
+│   ├── home.css
+│   ├── cur.css
+│   ├── about.css
+│   ├── faq.css
+│   ├── fontawesome.min.css
+│   ├── swiper-bundle.min.css
+│
+├── /scripts        # JavaScript files for website interactivity
+│   ├── home.js
+│   ├── cur.js
+│   ├── about.js
+│   ├── faq.js
+│   ├── swiper-bundle.min.js
+│
+├── /photo          # Images used across the website
+│
+├── /video          # Video content for the about page
+│
+├── /sounds         # Sound effects used for interactions
+│
+├── /webfonts       # Custom fonts used in the project
+│
+└── README.md       # Documentation of the project
+```
 
 ## Features
+```
 Responsive Design: Utilizes Bootstrap for responsiveness.
 Navigation Bar: Includes links to the homepage, curriculum, about page, and FAQ.
 Dynamic Content: JavaScript functionalities for interactive elements like sliders and animations.
 Multimedia Integration: Uses images, video, and sound for an engaging experience.
 Pricing Section: Displays different subscription plans.
+```
 
 ## Dependencies
+```
 Bootstrap 5
 FontAwesome
 jQuery
 Swiper.js (for sliders)
+```
 
 ## Usage
+```
 Navigate to pages/home.html to start.
 All internal links use relative paths (e.g., ../pages/home.html).
 CSS and JavaScript files are linked using ../styles/ and ../scripts/ respectively.
+```
 
 ## Screenshots
 ## Homepage
